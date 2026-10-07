@@ -1,8 +1,11 @@
 text = "Hello World. Welcome to the World of python."
 
-first = text.find("World")
-last = text.rfind("World")
+first = input ("Choose a word from a text above: ")
+second = input ("Choose one more word from a text above: ")
+
+First = text.find(first)
+Second = text.rfind(second)
 
 print("Text:", text)
-print("First World:", first)
-print("Last World:", last)
+print("First World:", First)
+print("Second World:", Second)
